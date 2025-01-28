@@ -1,0 +1,213 @@
+/* Global Styling */
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f6f9; /* Subtle background color */
+}
+
+/* Heading Styling */
+.service-page-heading {
+  font-size: 3rem; /* Larger heading */
+  font-weight: 700; /* Extra bold */
+  color: #2c3e50; /* Professional dark tone */
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.supporting-text {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #7f8c8d; /* Neutral tone for description */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Services Container */
+.services-container {
+  padding: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #ffffff; /* White background for contrast */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05); /* Subtle shadow for depth */
+  border-radius: 10px; /* Rounded corners */
+}
+
+/* Filters Section */
+.filters {
+  display: flex;
+  flex-wrap: wrap; /* Wraps on smaller screens */
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.dropdown {
+  padding: 10px 12px;
+  border: 1px solid #bdc3c7;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  font-size: 1rem;
+  color: #34495e;
+  transition: border-color 0.3s ease;
+}
+
+.dropdown:focus {
+  border-color: #3498db;
+  outline: none;
+}
+
+/* Search Bar */
+.search-bar {
+  display: flex;
+  gap: 10px;
+}
+
+.search-bar input {
+  padding: 10px;
+  width: 250px;
+  border: 1px solid #bdc3c7;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.search-bar input:focus {
+  border-color: #3498db;
+  outline: none;
+}
+
+.search-button {
+  padding: 10px 16px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+  background-color: #2980b9;
+}
+
+/* Page Title */
+.page-title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 30px;
+}
+
+/* Service Cards */
+.services-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
+  gap: 20px;
+}
+
+.service-card {
+  border: 1px solid #ecf0f1;
+  border-radius: 12px;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+}
+
+.service-header .category {
+  font-style: italic;
+  color: #7f8c8d;
+  font-size: 0.9rem;
+}
+
+.service-header .title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-top: 5px;
+}
+
+.description {
+  margin: 15px 0;
+  color: #34495e;
+  line-height: 1.5;
+}
+
+.service-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Buttons */
+.test-button {
+  border: 2px solid #e74c3c;
+  color: #e74c3c;
+  background-color: transparent;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.test-button:hover {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.price-button {
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.price-button:hover {
+  background-color: #219150;
+}
+
+/* Pagination */
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.pagination button {
+  padding: 8px 12px;
+  border: 1px solid #bdc3c7;
+  background-color: white;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.pagination button:hover {
+  background-color: #3498db;
+  color: white;
+  border-color: #3498db;
+}
+
+.pagination .active {
+  background-color: #3498db;
+  color: white;
+  border: none;
+}
+
+  
