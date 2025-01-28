@@ -1,0 +1,66 @@
+.deshmenu {
+    height: 87vh;
+    background-color: #f0f0f0; /* Light gray background for the dashmenu */
+    display: flex;
+    justify-content: center;  /* Centers the inner container horizontally */
+    align-items: center;      /* Centers the inner container vertically */
+    padding: 10px;
+}
+
+.inner-container {
+    width: 95%;               /* Sets the width of the inner container to 80% of the parent */
+    height: 95%;              /* Sets the height of the inner container to 80% of the parent */
+    background-color: white;  /* White background for the inner container */
+    padding: 20px;            /* Adds padding inside the inner container */
+    border-radius: 10px;      /* Optional: Rounded corners for the inner container */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+    display: flex;
+}
+
+.left-section {
+    width: 25%;
+    height: 100%;
+    padding-right: 20px;
+    border-right: 1px solid #ddd;
+}
+
+.left-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.left-section li {
+    padding: 15px 20px;       /* Adds padding inside each box */
+    cursor: pointer;         /* Makes the box clickable */
+    font-size: 18px;          /* Sets the font size */
+    margin-top: 20px;         /* Adds space between each box */
+    background-color: #fff;   /* White background for each box */
+    border: 1px solid #ddd;   /* Adds a border around each box */
+    border-radius: 8px;       /* Rounded corners */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.left-section li:hover {
+    background-color: #e0e0e0; /* Light gray background on hover */
+    transform: translateY(-5px); /* Slight raise effect on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds subtle shadow on hover */
+}
+
+.left-section li.active {
+    background-color: #242c42; /* Dark background for active item */
+    color: white;              /* White text for active item */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Slight shadow effect on active */
+}
+.right-section {
+    width: 75%;
+    padding-left: 20px;
+  }
+  
+  .right-section h2 {
+    margin-top: 0;
+  }
+  
+  .right-section p {
+    font-size: 16px;
+    color: #555;
+  }

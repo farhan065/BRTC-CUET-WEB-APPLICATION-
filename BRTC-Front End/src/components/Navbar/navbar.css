@@ -1,0 +1,173 @@
+/* Reset Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: #242c42;
+  padding: 15px 30px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+}
+
+/* Left Section */
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+/* Logo */
+.logo {
+  width: 50px;
+  height: auto;
+  margin-right: 12px;
+}
+
+/* CUET BRTC Brand Name */
+.brand-name {
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+.brand-name:hover {
+  color: #fbbf00;
+}
+
+/* Right Section */
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+/* Navbar Links */
+.navbar-link {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar-link:hover {
+  color: #fbbf00;
+}
+
+/* Logout Button */
+.logout-btn {
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+
+.logout-btn:hover {
+  color: #fbbf00;
+}
+
+/* Logout Clicked Effect */
+.logout-clicked {
+  color: #fbbf00 !important;
+}
+
+/* Cart Section */
+.cart {
+  position: relative;
+  text-decoration: none;
+  color: white;
+}
+
+.cart-icon {
+  font-size: 26px;
+  transition: all 0.3s ease-in-out;
+}
+
+.cart-icon:hover {
+  transform: scale(1.1);
+}
+
+/* Hamburger Menu */
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.hamburger span {
+  font-size: 28px;
+  color: white;
+}
+
+/* Mobile Menu */
+.mobile-menu {
+  display: none;
+  background-color: #242c42;
+  position: absolute;
+  top: 80px;
+  left: 0;
+  right: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+.mobile-menu.active {
+  display: block;
+}
+
+.mobile-menu .navbar-link {
+  display: block;
+  margin: 10px 0;
+}
+.ltitle {
+  text-decoration: none; /* Remove underline */
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 24px; /* Larger, professional font size */
+  font-weight: bold; /* Make it stand out */
+  letter-spacing: 1px; /* Add slight spacing between letters */
+  transition: all 0.3s ease-in-out; /* Smooth hover effect */
+}
+
+.ltitle:hover {
+  color: #fbbf00; /* Change color to yellow on hover */
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+/* Navbar Title (CUET BRTC Text) */
+.navbar-title {
+  font-family: "Roboto", sans-serif; /* Sleek professional font */
+  text-transform: uppercase; /* Capitalize letters for authority */
+}
+
+/* Mobile Responsive Design */
+@media (max-width: 768px) {
+  .navbar-right {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .navbar-left {
+    display: flex;
+    align-items: center;
+  }
+}
