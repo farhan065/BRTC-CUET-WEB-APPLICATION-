@@ -1,0 +1,81 @@
+/* Container */
+.report-container {
+    width: 95%;
+    margin: 20px auto;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+  }
+  
+  /* Page Title and Breadcrumb */
+  .page-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #242c42;
+  }
+  
+  .breadcrumb {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  /* Report Card */
+  .report-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-header {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #242c42;
+  }
+  
+  /* Report Table */
+  .report-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .report-table th,
+  .report-table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .report-table th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .report-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .report-table tr:hover {
+    background-color: #f0f4ff;
+  }
+  
+  /* Download Button */
+  .btn-download {
+    padding: 8px 12px;
+    font-size: 14px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn-download:hover {
+    background-color: #0056b3;
+    text-decoration: none;
+  }
+  

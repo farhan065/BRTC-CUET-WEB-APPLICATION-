@@ -1,0 +1,73 @@
+/* UserProfile Container */
+.user-profile-container {
+    width: 95%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .user-profile-header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Content Layout */
+  .user-profile-content {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .user-profile-card {
+    flex: 1; /* Two cards will share equal width */
+    background-color: #fafafa;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Card Title */
+  .card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  /* User Info Items */
+  .user-info-item {
+    margin-bottom: 10px;
+  }
+  
+  .user-info-item strong {
+    font-weight: 600;
+    display: block;
+    color: #333333;
+  }
+  
+  .user-info-item p {
+    margin: 5px 0 0 0;
+    color: #555555;
+    font-size: 14px;
+  }
+  
+  /* Edit Links */
+  .user-info-edit {
+    margin-top: 20px;
+    border-top: 1px solid #e0e0e0;
+    padding-top: 10px;
+  }
+  
+  .user-info-edit p {
+    color: #007bff;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  
+  .user-info-edit p:hover {
+    text-decoration: underline;
+  }
+  
