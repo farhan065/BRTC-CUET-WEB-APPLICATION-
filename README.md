@@ -108,7 +108,18 @@ After the testing is completed, users can access their reports in the **User Das
 
 
 
+### Demo Report
+A report can be downloaded when it will be send to the user.
 
+![Demo Screenshot](https://i.imgur.com/AjNlV9w.png)
+
+---
+### Message Notification
+A message will be send to the user when he completes the payment and when he recerives the report
+
+![Message Screenshot](https://i.imgur.com/PqwFUi6.jpeg)
+
+---
 
 
 
