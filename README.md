@@ -1,4 +1,4 @@
-# BRTC, CUET - Bureau of Research, Testing, and Consultation Management System
+# BRTC, CUET - Bureau of Research, Testing, and Consultation Management System, CUET
 
 The **BRTC Management System** is an innovative platform designed to streamline the process of material collection, testing, and reporting for clients. It provides an easy-to-use interface where clients can choose from a variety of services, add them to their cart, and complete payments securely using Stripe. Once payment is successful, the client will receive a confirmation message.
 
@@ -8,7 +8,7 @@ After the testing process is completed, clients are notified and can easily acce
 
 ## ⚙️ Development Stack
 
-BRTC is built using a modern and efficient development stack that ensures a seamless user experience, secure authentication, and scalable backend functionality.
+BRTC, CUET is built using a modern and efficient development stack that ensures a seamless user experience, secure authentication, and scalable backend functionality.
 
 ### Frontend
 - **HTML, CSS, JavaScript**: Core technologies for building the structure, styling, and interactivity of the website.
