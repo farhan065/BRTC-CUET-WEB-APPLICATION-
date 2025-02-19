@@ -1,4 +1,4 @@
-# BRTC - Bureau of Research, Testing, and Consultation Management System
+# BRTC, CUET - Bureau of Research, Testing, and Consultation Management System
 
 The **BRTC Management System** is an innovative platform designed to streamline the process of material collection, testing, and reporting for clients. It provides an easy-to-use interface where clients can choose from a variety of services, add them to their cart, and complete payments securely using Stripe. Once payment is successful, the client will receive a confirmation message.
 
